@@ -115,45 +115,6 @@ Supported actions:
 - 执行首张
 - 清空
 
-### VNCCS Position Control
-
-Class ID:
-
-```text
-VNCCS_PositionControl
-```
-
-This node generates a prompt string from camera angle and distance settings.
-
-Inputs:
-
-- `azimuth`: Horizontal camera angle.
-- `elevation`: Vertical camera angle.
-- `distance`: `close-up`, `medium shot`, or `wide shot`.
-- `include_trigger`: Whether to include the `<sks>` trigger word.
-
-Output:
-
-- `prompt`: Generated prompt text.
-
-### VNCCS Visual Position Control
-
-Class ID:
-
-```text
-VNCCS_VisualPositionControl
-```
-
-This is a UI-backed version of `VNCCS_PositionControl`.
-
-Input:
-
-- `camera_data`: Hidden JSON string used by the frontend widget.
-
-Output:
-
-- `prompt`: Generated prompt text.
-
 ## Recommended Wiring
 
 Use this wiring for the complete workflow:
