@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 批量加载图像，批量执行
 =======
 # ComfyUI XMT Batch Image Loader
